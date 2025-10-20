@@ -59,3 +59,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = gzr.ylr1@gmail.com
+	name = youssef guizour
