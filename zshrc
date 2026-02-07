@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search)
+plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search ssh-agent)
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
@@ -70,3 +70,10 @@ export EDITOR=code
 
 # Set ipdb as the default Python debugger
 export PYTHONBREAKPOINT=ipdb.set_trace
+export BROWSER="/mnt/c/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"
+export GH_BROWSER="'/mnt/c/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'"
+export BROWSER="/mnt/c/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe"
+export GH_BROWSER="'/mnt/c/Program Files/BraveSoftware/Brave-Browser/Application/brave.exe'"
+export GOOGLE_APPLICATION_CREDENTIALS=/home/gzryl/code/Youss2313/gcp/bootcamp-le-wagon-475715-08c1990c12d3.json
+export PYTHONPATH="/home/gzryl/code/Youss2313/03-Decision-Science:$PYTHONPATH"export BROWSER="/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+export GH_BROWSER="'/mnt/c/Program Files/Google/Chrome/Application/chrome.exe'"
